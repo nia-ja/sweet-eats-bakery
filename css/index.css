@@ -171,7 +171,7 @@ img {
 .container header nav a:hover {
     background-color: white;
     color: #9b0765;
-    animation: spin 3s linear;
+    animation: spin 1s linear;
     transform-origin: 30% 50px;
 }
 
