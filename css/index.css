@@ -70,13 +70,7 @@ h1, h2, h3, h4, h5 {
 }
   
 body {
-    background:
-        radial-gradient(black 15%, transparent 16%) 0 0,
-        radial-gradient(black 15%, transparent 16%) 8px 8px,
-        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
     background-color:#282828;
-    background-size:16px 16px;
 }
   
 @keyframes typing {
@@ -94,7 +88,7 @@ h1 {
     text-align: center;
     color: #f9e5f1;
     text-shadow: 0 0 .03em, 0 0 .9em;
-    width: 17ch;
+    width: 100%;
     overflow: hidden;
     white-space: nowrap;
     border-right: .05 solid;
@@ -128,10 +122,6 @@ img {
     margin-right: auto;
     width: 100%;
 }
-
-/* .section-img {
-    width: 150%;
-} */
   
 .content-row {
     display: flex;
@@ -148,20 +138,19 @@ img {
     margin: 0 auto;
     width: 700px;
     background:
-      linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-      linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-      linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-      linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-      linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-      linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-    background-color: #131313;
-    background-size: 20px 20px;
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
     padding: 10px 40px;
 }
 
 .container header nav {
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .container header nav a {
     margin: 0 10px;
@@ -191,7 +180,7 @@ img {
 }
   
 .contact-section {
-    border-top: 1px dashed black;
+    /* border-top: 1px dashed black; */
     padding: 20px 0;
 }
   
@@ -202,6 +191,12 @@ img {
 
 .contact-section address {
     line-height: 2;
+}
+
+.cookies p {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
   
 footer {
